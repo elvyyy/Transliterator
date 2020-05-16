@@ -1,0 +1,22 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\vladc\OneDrive\Рабочий стол\Transliterator\src\test\scala\TransliteratorTest.scala:3:12: object junit is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.junit.{Assert, Test}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\vladc\OneDrive\Рабочий стол\Transliterator\src\test\scala\TransliteratorTest.scala:34:4: not found: type Test[0m
+[0m[[0m[31merror[0m] [0m[0m  @Test def `привет string test`: Unit =[0m
+[0m[[0m[31merror[0m] [0m[0m   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\vladc\OneDrive\Рабочий стол\Transliterator\src\test\scala\TransliteratorTest.scala:36:7: not found: value Assert[0m
+[0m[[0m[31merror[0m] [0m[0m      Assert.assertEquals(true, "privet" == transliterate(s1))[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\vladc\OneDrive\Рабочий стол\Transliterator\src\test\scala\TransliteratorTest.scala:39:4: not found: type Test[0m
+[0m[[0m[31merror[0m] [0m[0m  @Test def `empty string test`: Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\vladc\OneDrive\Рабочий стол\Transliterator\src\test\scala\TransliteratorTest.scala:41:7: not found: value Assert[0m
+[0m[[0m[31merror[0m] [0m[0m      Assert.assertEquals(true, new String() == transliterate(""))[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\vladc\OneDrive\Рабочий стол\Transliterator\src\test\scala\TransliteratorTest.scala:45:4: not found: type Test[0m
+[0m[[0m[31merror[0m] [0m[0m  @Test def `big text test`: Unit =[0m
+[0m[[0m[31merror[0m] [0m[0m   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\vladc\OneDrive\Рабочий стол\Transliterator\src\test\scala\TransliteratorTest.scala:47:7: not found: value Assert[0m
+[0m[[0m[31merror[0m] [0m[0m      Assert.assertEquals(true, str2 == transliterate(str1))[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m
